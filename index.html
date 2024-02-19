@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>التحقق من صورة اخراج قيد - دائرة الأراضي والمساحة</title>
+
+    <link rel="shortcut icon" href="/DlsEserviceWeb/assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/DlsEserviceWeb/assets/img/favicon.ico" type="image/x-icon">
+
+    <link href="/DlsEserviceWeb/assets/font/font.css" rel="stylesheet" type="text/css" />
+    <link href="/DlsEserviceWeb/assets/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="/DlsEserviceWeb/assets/bootstrap/css/bootstrap-rtl.css" rel="stylesheet" />
+    <link href="/DlsEserviceWeb/assets/components-rounded-rtl.css" rel="stylesheet" />
+    <link href="/DlsEserviceWeb/assets/Site-rtl.css" rel="stylesheet" />
+
+
+    
+
+
+
+
+
+</head>
+<body>
+
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a href="/DlsEserviceWeb/" style="color:#dadada!important">
+                    <img src="./DlsEserviceWeb/assets/images/DLS Logo.png" class="img-responsive" style="display:inline; height:47px;" /> دائرة الأراضي والمساحة
+                </a>
+
+                
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"> <a href="https://home-eservices.dls.gov.jo/DlsEserviceWeb/"><i class="glyphicon glyphicon-home"></i> الرئيسية </a></li>
+                    <li class="active"> <a href="https://home-eservices.dls.gov.jo/DlsEserviceWeb/Home/Services"><i class="glyphicon glyphicon-th"></i> قائمة الخدمات</a></li>
+                </ul>
+                    <ul class="nav navbar-nav navbar-left">
+                        <li class="dropdown">
+                            <a href="/DlsEserviceWeb/Account/Login" class="dropdown-toggle">دخـول</a>
+                        </li>
+                    </ul>
+                
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+
+
+
+    <div class="container body-content">
+        
+
+
+<form action="/DlsEserviceWeb/qr" class="" method="get">    <div class="form-panel panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title"><i class="glyphicon glyphicon-search"></i> التحقق من صورة اخراج قيد </h3>
+        </div>
+        <div class="panel-body">
+
+         
+            <div role="form" class="">
+
+                <div class="alert alert-warning">
+                    التحقق باستخدام الرقم الوطني والرمز المميز  .    <span>مثال</span> <span dir="ltr">1234-ABCDEF</span>
+                </div>
+
+                <div>
+                    <div class="form-group form-group-lg col-md-4">
+                        
+                        <input class="form-control" value="9531015802" placeholder="الرقم الوطني لصاحب العلاقة" name="sid" type="number" maxlength="10" autofocus="" autocomplete="off" onkeypress="return isNumberKey(event)">
+                    </div>
+                    <div class="form-group form-group-lg col-md-3">
+                        
+                        <input class="form-control" value="XBW5GE" placeholder="الأحرف" name="ul" type="text" maxlength="12" autofocus="" autocomplete="off">
+                    </div>
+                    <div class="form-group form-group-lg col-md-3">
+                        
+                        <input class="form-control" value="34053" placeholder="التسلسل" name="un" type="number" maxlength="6" autofocus="" autocomplete="off" onkeypress="return isNumberKey(event)" onblur="checkInt(this)">
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="panel-footer">
+            <button type="submit" class="btn btn-lg btn-success">
+                بحث
+            </button>
+        </div>
+    </div>
+</form>
+
+
+
+
+
+
+
+<div class="form-panel panel panel-success">
+    <div class="panel-heading">
+        <h3 class="panel-title"> بيانات القيد </h3>
+    </div>
+    <div class="panel-body">
+
+            <table class="table table-bordered table-striped">
+                <tr>
+                    <td><strong>المديرية</strong></td>
+                    <td> اراضي جنوب عمان</td>
+                    
+                    <td><strong>رقم القيد</strong></td>
+                    <td>2024-INF-34053</td>
+                </tr>
+                <tr>
+                    <td><strong>القرية</strong></td>
+                    <td> خريبة السوق  و جاوا</td>
+                    
+                    <td><strong>اسم الحوض</strong></td>
+                    <td>  العلكومية</td>
+                </tr>
+                <tr>
+                    <td><strong>اسم الحي</strong></td>
+                    <td>  جدول الأحياء</td>
+                    
+                    <td><strong>نوع الارض</strong></td>
+                    <td>  ملك</td>
+                </tr>
+                <tr>
+                    <td><strong>رقم القطعة</strong></td>
+                    <td>  227</td>
+                    
+                    <td><strong>رقم الحي</strong></td>
+                    <td>  0</td>
+                </tr>
+                <tr>
+                    <td><strong>رقم الحوض</strong></td>
+                    <td> 1</td>
+                    
+                    <td><strong>رقم اللوحة</strong></td>
+                    <td> 1</td>
+                </tr>
+                <tr>
+                    <td><strong>رقم الشقة</strong></td>
+                    <td>
+                        000
+                    </td>
+                    
+                    <td><strong>مجموع الحصص</strong></td>
+                    <td>  3</td>
+                </tr>
+                <tr>
+                    <td><strong>القيمة التسجيلية</strong></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td><strong>المساحة</strong></td>
+                    <td colspan="3">
+                          <h3 style="display:inline-block"><span class="label label-primary">2 دونم</span></h3>  
+
+                          <h3 style="display:inline-block"><span class="label label-info">606  متر</span></h3>  
+
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>المساحة كتابة</strong></td>
+                    <td colspan="3">
+                        اثنان  دونم وستمائة و ستة متر فقط
+                    </td>
+                </tr>
+            </table>
+
+
+    </div>
+</div>
+
+
+
+
+    <div class="form-panel panel panel-success">
+        <div class="panel-heading">
+            <h3 class="panel-title"> قائمة الملاك  </h3>
+        </div>
+        <div class="panel-body">
+
+
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>رقم وطني/متسلسل</th>
+                        <th>اسماء المالكين</th>
+                        <th>الجنسية</th>
+                        <th>الحصص</th>
+                    </tr>
+                </thead>
+                <tbody>
+                        <tr>
+                            <td>9531015802</td>
+                            <td>خلف احمد محمد   البصال</td>
+                            <td>الأردنية</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>9591014946</td>
+                            <td>ابراهيم احمد محمد   البصال</td>
+                            <td>الأردنية</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>9581015399</td>
+                            <td>محمد احمد محمد   البصال</td>
+                            <td>الأردنية</td>
+                            <td>1</td>
+                        </tr>
+                </tbody>
+            </table>
+
+
+        </div>
+    </div>
+
+
+    <div class="form-panel panel panel-success">
+        <div class="panel-heading">
+            <h3 class="panel-title"> الوقوعات  </h3>
+        </div>
+        <div class="panel-body">
+
+        
+            <div class="alert alert-warning">
+                <h3>يوجد وقوعات</h3>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <div class="navbar-fixed-bottom footer">
+        <small>جميع الحقوق محفوظة لدائرة الأراضي و المساحة  &copy;  2024  تطوير   <a href="http://www.infiniteecmportal.com/e-file/Home.aspx" target="_blank">E-File</a></small>
+    </div>
+
+
+    <script src="/DlsEserviceWeb/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="/DlsEserviceWeb/assets/vuejs/vue.min.js"></script>
+    <script src="/DlsEserviceWeb/assets/bootstrap/js/bootstrap.js"></script>
+
+    
+    <script src="/DlsEserviceWeb/Scripts/common.js"></script>
+
+
+
+
+</body>
+</html>
